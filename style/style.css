@@ -1,0 +1,168 @@
+body, body *{
+	margin: 0;
+	padding: 0;
+	font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+	color: #444;
+	font-weight: normal;
+}
+body {
+	background-color: #181824;
+}
+
+header {
+	background-size: cover;
+    padding: 70px;
+    margin-bottom: 25px;
+    overflow: auto;
+    background-image: linear-gradient( 108.7deg, rgb(221 22 224 / 70%) 11%,rgb(111 22 190 / 70%) 88.2% ), url(https://www.angelxp.eu/image/Twitter/nature/montagne04.jpg);
+    background-repeat: no-repeat;
+}
+
+header #app_name {	
+	margin: 140px;
+    font-size: xx-large;
+    color: white;
+	text-decoration: auto;
+}
+
+/*header + a, header + a + a, header + a + a + a {*/
+	#login_btn, #logout_btn, #signup_btn {
+		/* display: inline-block; */
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+		margin: 0 40px 0 5px;
+		border: 1px solid lightgray;
+		font-size: large;
+		border-radius: 3px;
+		float: right;
+		background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+	}
+
+	#login_btn:active, #logout_btn:active, #signup_btn:active {
+		background-color: #ddd;
+	}
+	
+	
+input, button {
+		padding: 15px;
+		margin: 15px auto;
+		border-radius: 3px;
+	}
+	
+input[type='text'], input[type='password'], input[type='email'] {
+	
+	display: block;
+	width: 300px;
+	border: 1px solid #ddd;
+	font-size: medium;
+}
+
+input[type='submit'], input[type='button'], button {
+	border: 1px solid #1873cc;
+	background-color: dodgerblue;
+	color: white;
+	font-size: large;
+	margin: 0 10px;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+.success {
+	color: green;
+	text-align: center;
+}
+
+.task_container{
+	width: 50%;
+	margin: 30px auto;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: left;
+	box-shadow: 4px 6px 5px black;
+}
+
+.task_container h3{
+	margin: 0;
+	text-align: left;
+}
+
+.task_container a{
+	display: inline-block;
+	margin: 5px 5px 0 0;
+	text-decoration: none;
+}
+
+.content{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#task_p{
+	width: 90%;
+	color: white;
+}
+
+#edit{
+	background-color: #19d319;
+    padding: 4px;
+    border-radius: 7px;
+    color: white;
+}
+
+#delete{
+	background-color: #d31919;
+    padding: 4px;
+    border-radius: 7px;
+    color: white;
+}
+
+.button_task{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.task_container #description, .task_container button {
+	display: none;
+}
+
+form {
+	text-align: center;
+}
+
+#container {
+	text-align: center;
+}
+
+#username {
+	text-align: center;
+	color: white;
+}
+
+button {
+display: block;
+margin: 0 auto;
+}
+
+#cancel_btn {
+	background-color: orange;
+	border: 1px solid #cc8400;
+}
+
+#description {
+	width: 50%;
+}
+
+form button {
+	display: inline;
+}
+
+form button a {
+	text-decoration: none;
+	color: #fff;
+}
